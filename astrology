@@ -6,7 +6,7 @@ const source = {
     typeGift: ['car', 'set of clothes', 'friend', 'stack of money', 'set of skills you never knew you had']
 };
 
-const randomNum = (a) => Math.floor(Math.random() * a.length );
+const randomNum = a => Math.floor(Math.random() * a.length );
 
 const randomWord = (arrTense, arrWhat, arrGift, arrType) => {
 

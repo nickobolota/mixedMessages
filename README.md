@@ -13,7 +13,7 @@ const source = {
 ```javascript
 const randomNum = (a) => Math.floor(Math.random() * a.length );
 ```
-* then using a arrow function that takes in 4 arguments which iterate through the source object.
+* then using an arrow function that takes in 4 arguments which iterate through the source object.
 ```javascript
 const randomWord = (arrTense, arrWhat, arrGift, arrType) => {
 
@@ -27,7 +27,7 @@ const randomWord = (arrTense, arrWhat, arrGift, arrType) => {
     const sentence = `${tenseOne} ${whatOne} ${giftOne} ${typeOne}`;
     return sentence;
 ```
-* and finally reasiging the value of the randomWord funtion and its arguments and logging the result to the console.
+* and finally reasigning the value of the randomWord function and it's arguments and logging the result to the console.
 ```javascript
 const finalSentence = randomWord(source.tense, source.what, source.gift, source.typeGift);
 
