@@ -1,5 +1,5 @@
 # Mixed messages project
-====================
+************************
 ## Generating random fortune cookies 
 * using an obect with parameters set equal to arrays.
 ```javascript
