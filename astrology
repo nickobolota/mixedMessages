@@ -17,9 +17,6 @@ const randomWord = (arrTense, arrWhat, arrGift, arrType) => {
 
     const sentence = `${tenseOne} ${whatOne} ${giftOne} ${typeOne}`;
     return sentence;
-
-
-
 };
 
 const finalSentence = randomWord(source.tense, source.what, source.gift, source.typeGift);
