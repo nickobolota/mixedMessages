@@ -22,9 +22,6 @@ const randomWord = (arrTense, arrWhat, arrGift, arrType) => {
 
 };
 
-const finalSentecne = randomWord(source.tense, source.what, source.gift, source.typeGift);
+const finalSentence = randomWord(source.tense, source.what, source.gift, source.typeGift);
 
-//console.log(source.gift[2]);
-//console.log(source.gift[randomNum(source.gift)])
-
-console.log(finalSentecne);
+console.log(finalSentence);
