@@ -1,1 +1,30 @@
-console.log('hello there')
+//these hold the source informtion
+const source = {
+    tense: ['You will','be patient soon you will', 'soon you will', 'if you wait long enough you will'],
+    what:  ['recieve','come across', 'find', 'discover'],
+    gift: ['a brand new', 'an old', 'a devine', 'a sneeky', 'a cheap', 'a dirty'],
+    typeGift: ['car', 'set of clothes', 'friend', 'stack of money', 'set of skills you never knew you had']
+};
+
+const randomNum = (a) => Math.floor(Math.random() * a.length );
+
+const randomWord = (arrTense, arrWhat, arrGift, arrType) => {
+
+    const tenseOne = arrTense[randomNum(arrTense)];
+    const whatOne = arrWhat[randomNum(arrWhat)];
+    const giftOne = arrGift[randomNum(arrGift)];
+    const typeOne = arrType[randomNum(arrType)];
+
+    const sentence = `${tenseOne} ${whatOne} ${giftOne} ${typeOne}`;
+    return sentence;
+
+
+
+};
+
+const finalSentecne = randomWord(source.tense, source.what, source.gift, source.typeGift);
+
+//console.log(source.gift[2]);
+//console.log(source.gift[randomNum(source.gift)])
+
+console.log(finalSentecne);
